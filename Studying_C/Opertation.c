@@ -43,5 +43,11 @@ int main(){
     printf("Bitwise OR with 1: %b --> The number in decimal: %d\n", test | 1, test | 1);
     printf("Bitwise XOR with 1: %b --> The number in decimal: %d\n", test ^ 1, test ^ 1);
     printf("The Last bit of the number is: %d\n", test & 1);
+
+    //Three conditional operator
+    int num = 10;
+    char* result = (num % 2 == 0) ? "True" : "False";
+    printf("Is %d even? %s\n", num, result);
+    
     return 0;
 }
